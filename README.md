@@ -1,3 +1,10 @@
-# Task App 
-## special for "Komanda F5"
-## Author: Vladimir Pakhmutov
+# Task Manager
+
+#### Использованные технологии
+- **Vue.js**
+- **Vuex в режиме strict**
+- **Vue-router для маршрутизации**
+- **JSON-server для эмуляци REST API**
+
+#### Запуск проекта 
+В папке с файлом находится файл **start.bat**, который запускает JSON-сервер и сам проект
