@@ -7,14 +7,8 @@
 - **JSON-server для эмуляци REST API**
 
 #### Запуск проекта 
-Для запуска в системе должны быть установлены следующие инструменты:
-- **Node.js**
-- **JSON-server** (глобально установленный)
-
-Сайт Node.js : https://nodejs.org/en
-
-Для установки json-server используем команду в командной строке:
-
-`npm install -g json-server`
-
-В папке с файлом находится файл **start.bat**, который запускает JSON-сервер и сам проект
+1. Установить Node.js
+2. Установить JSON-server глобально: `npm install -g json-server` - для запуска сервера
+3. Установить concurrently - для того чтобы запускать и сервер и клиент одной командой npm - `npm install -g concurrently`
+4. Открыть проект и запустить команду `concurrently "npm run server" "npm run dev" `
+5. Открыть сайт из консоли, или же просто вбить в строку http://localhost:8080
